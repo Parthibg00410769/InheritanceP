@@ -1,13 +1,13 @@
 package ie.atu.week10;
 
-public class Customer {
+public class Customer extends Person1 {
     private String customerNumber;
     private boolean mailingList;
 
     public Customer(){
 
     }
-    public Customer(String name, String address, String number, String customerNumber, String mailingList){
+    public Customer(String name, String address, String number, String customerNumber, boolean mailingList){
         super(name, address, number);
         this.customerNumber = customerNumber;
         this.mailingList = mailingList;
